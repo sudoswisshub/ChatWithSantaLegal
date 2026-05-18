@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Chat With Santa</title>
+    <meta name="description" content="Support and help center for the Chat With Santa app.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Chat With Santa</h1>
+        <p>Magical conversations, verified by elves.</p>
+    </header>
+
+    <nav>
+        <a href="support.html" class="active">Support</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+    </nav>
+
+    <main>
+        <div class="card">
+            <h2>How can we help you?</h2>
+            <p>If you're experiencing issues with the Chat With Santa app, have billing questions, or just want to leave feedback, our elves are here to help! You can reach us by filling out the form below or emailing us directly at <a href="mailto:alice.turcanu91@gmail.com" style="color: var(--primary-red); font-weight: 600;">alice.turcanu91@gmail.com</a>.</p>
+            
+            <form class="support-form" action="mailto:alice.turcanu91@gmail.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Mrs. Claus" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="elf@northpole.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="How can we make your holiday season better?" required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Send Message to the North Pole</button>
+            </form>
+
+            <h3 style="margin-top: 3rem;">Frequently Asked Questions</h3>
+            
+            <h4 style="margin-top: 1rem; color: var(--text-main);">The app isn't playing audio. What do I do?</h4>
+            <p>Please ensure that your device is not on silent mode (check the physical switch on the side of your device) and that your volume is turned up.</p>
+            
+            <h4 style="margin-top: 1rem; color: var(--text-main);">Is the AI safe for children?</h4>
+            <p>Yes! Our AI is strictly prompted and filtered to ensure it only provides family-friendly, positive, and holiday-themed responses appropriate for children of all ages.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Chat With Santa. All rights reserved.</p>
+    </footer>
+</body>
+</html>
